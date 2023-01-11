@@ -58,3 +58,6 @@ I think as apple and banana are fruit. The similarity is quite high. I thought v
 But I guess spaCy considered vegetarian is a human or a life style instead of a fruit.
 
 Using sm to replace md, the similarity from spaCy decreases as some cannot even be compared
+
+
+https://github.com/Kingsleyosborn/T38-NLP
