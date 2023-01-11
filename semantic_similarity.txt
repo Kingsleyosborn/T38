@@ -1,0 +1,60 @@
+Cat and monkey are mammal and animal. 
+I think the pobability of monkey likes banana more than cat likes banana
+
+
+I am going to compare the similarity of apple, banana, onion, leek, garden and vegetarian.
+apple apple 1.0
+apple banana 0.6646699905395508
+apple onion 0.5563870072364807
+apple leek 0.5775943994522095
+apple fig 0.48826971650123596
+apple garden 0.33607712388038635
+apple vegetarian 0.32708150148391724
+banana apple 0.6646699905395508
+banana banana 1.0
+banana onion 0.5381125211715698
+banana leek 0.591553807258606
+banana fig 0.4714246392250061
+banana garden 0.24736109375953674
+banana vegetarian 0.36449548602104187
+onion apple 0.5563870072364807
+onion banana 0.5381125211715698
+onion onion 1.0
+onion leek 0.7292338609695435
+onion fig 0.3468926250934601
+onion garden 0.30701208114624023
+onion vegetarian 0.4199906587600708
+leek apple 0.5775943994522095
+leek banana 0.591553807258606
+leek onion 0.7292338609695435
+leek leek 1.0
+leek fig 0.5107192993164062
+leek garden 0.36435505747795105
+leek vegetarian 0.4185887575149536
+fig apple 0.48826971650123596
+fig banana 0.4714246392250061
+fig onion 0.3468926250934601
+fig leek 0.5107192993164062
+fig fig 1.0
+fig garden 0.5310041308403015
+fig vegetarian 0.23885250091552734
+garden apple 0.33607712388038635
+garden banana 0.24736109375953674
+garden onion 0.30701208114624023
+garden leek 0.36435505747795105
+garden fig 0.5310041308403015
+garden garden 1.0
+garden vegetarian 0.34290575981140137
+vegetarian apple 0.32708150148391724
+vegetarian banana 0.36449548602104187
+vegetarian onion 0.4199906587600708
+vegetarian leek 0.4185887575149536
+vegetarian fig 0.23885250091552734
+vegetarian garden 0.34290575981140137
+vegetarian vegetarian 1.0
+
+
+I think as apple and banana are fruit. The similarity is quite high. I thought vegetarian would have a higher similarity. 
+But I guess spaCy considered vegetarian is a human or a life style instead of a fruit.
+
+Using sm to replace md, the similarity from spaCy decreases as some cannot even be compared
